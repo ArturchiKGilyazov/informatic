@@ -2,5 +2,5 @@
 
 
 sudo chown martinov shared.txt
-sudo -R bondarev ~/informatic/laba№2
+sudo chown -R bondarev ~/informatic/laba№2
 
