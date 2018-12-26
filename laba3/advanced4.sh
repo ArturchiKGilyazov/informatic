@@ -2,8 +2,8 @@
 
 let a=$1
 let b=$2
-if [[ $3 == ""]]
-	then 
+if [[ $3 == "" ]]
+then 
 	case $ARITHMETIC_OP in
 		add) let wr=a+b
 			echo $wr
@@ -14,7 +14,7 @@ if [[ $3 == ""]]
 		mul) let wr=a*b
 			echo $wr
 			;;
-		div)  if [[if b!=0 ]] 
+		div)  if [[ b != 0 ]] 
 			then wr=a/b
 				echo $wr
 			else
@@ -27,7 +27,7 @@ if [[ $3 == ""]]
 		add) let wr=a+b
 			echo $wr
 			;;
-		div) if [[ if b!=0 ]]
+		div) if [[ b != 0 ]]
 			then 
 				let wr=a/b
 				echo $wr
