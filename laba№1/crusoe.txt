@@ -1,0 +1,23 @@
+
+<script>
+	document.write('<style>.noscript { display:none }</style>');
+</script>
+<form action="http://v8.global-hotspot.ru/agreement/pfsense/ba72101f469ddc9e634cd318996eb43c/094dc2d143e0280dce7252d5d0a783c2" method="post" id="redirectform">
+<input type="hidden" name="client_mac" value="70:c9:4e:dd:81:7b">
+<input type="hidden" name="client_ip" value="10.9.47.243">
+<input name="action" type="hidden" value="http://10.9.40.1:8012/index.php?zone=zone_bl2">
+<input name="redirurl" type="hidden" value="http://v8.global-hotspot.ru/agreement/pfsense/ba72101f469ddc9e634cd318996eb43c/094dc2d143e0280dce7252d5d0a783c2">
+<input name="portal_msg" type="hidden" value="">
+<span class="noscript">Javascript is disabled, click to Continue</span>
+<input name="submitx" type="submit" value="Continue" />
+</span>
+</form>
+<script type="text/javascript">
+    function doredirect () {
+        var frm = document.getElementById("redirectform");
+        frm.submit();
+    }
+    window.onload = doredirect;
+</script>
+
+
